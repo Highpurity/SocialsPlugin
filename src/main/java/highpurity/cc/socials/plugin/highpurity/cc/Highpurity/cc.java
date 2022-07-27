@@ -20,5 +20,12 @@ public final class cc extends JavaPlugin {
         logger.info("SocialsPlugin has started!");
 
     }
-    
+
+    @Override
+    public void onDisable() {
+        saveDefaultConfig();
+
+        getLogger().severe("SocialsPlugin is shutting down... Goodbye!");
+
+    }
 }
