@@ -23,7 +23,7 @@ public class Discord implements CommandExecutor {
 
             }else-if(args.length == 2){
                 p.getUniqueId();
-                
+
 
                 var social = args[1];
             }
