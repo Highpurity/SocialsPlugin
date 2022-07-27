@@ -13,18 +13,12 @@ public final class cc extends JavaPlugin {
         var logger = getLogger();
         logger.info("Starting SocialsPlugin!");
 
-        
-
-        if()
-        logger.warning("This plugin will function properly with no configuration, however it is greatly encouraged to visit the config.yml file! Disable this warning in the config.yml file!");
+        getConfig();
+        saveDefaultConfig();
 
 
-
+        logger.info("SocialsPlugin has started!");
 
     }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+    
 }
