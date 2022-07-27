@@ -9,6 +9,11 @@ public final class cc extends JavaPlugin {
         // Plugin startup logic
 
         var logger = getLogger();
+        logger.info("Starting SocialsPlugin!");
+
+        if()
+
+
     }
 
     @Override
