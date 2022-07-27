@@ -1,0 +1,8 @@
+name: SocialsPlugin
+version: '${project.version}'
+main: highpurity.cc.socials.plugin.highpurity.cc.Highpurity.cc
+api-version: 1.19
+prefix: [ SP ]
+authors: [ Highpurity ]
+description: Plugin for individual players to set their various social media platforms!
+website: Highpurity.cc
